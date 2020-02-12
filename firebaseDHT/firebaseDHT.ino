@@ -7,13 +7,13 @@
   
   // **** BIBLIOTECAS ****
   #include <FirebaseArduino.h>                            //  biblioteca usada para comunicacao com firebase
-  #include "DHT.h"                                        //  biblioteca usada pra ler o sensor DHT11
+  #include <DHT.h>                                        //  biblioteca usada pra ler o sensor DHT11
   #include <ESP8266WiFi.h>                                //  biblioteca usada para fazer a comunicacao com o WIFI
 
   // **** CONSTANTES ****
-  #define FIREBASE_HOST "nodemcuauto.firebaseio.com"      //  endereco do firebase
-  #define WIFI_SSID "2G_NetVirtua_119"                    //  nome da rede WIFI
-  #define WIFI_PASSWORD "0148735840"                      //  senha da rede WIFI
+  #define FIREBASE_HOST "XXXXXXX"                         //  endereco do firebase
+  #define WIFI_SSID "XXXXXXX"                             //  nome da rede WIFI
+  #define WIFI_PASSWORD "XXXXXXX"                         //  senha da rede WIFI
 
   // **** DEFINI O TIPO DO SENSOR
   #define DHTTYPE DHT11                                   //  modelo do sensor DHT11
